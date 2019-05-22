@@ -27,14 +27,14 @@ Samantha Larios Romero
 <plugin name="cordova-plugin-vibration" spec="~2.1.3" />
 <plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
 
-<!--Plugin para geolocalizar-->
-<plugin name="cordova-plugin-geolocation" spec="2.4.3" />
+ <!--Plugin para geolocalizar-->
+ <plugin name="cordova-plugin-geolocation" spec="2.4.3" />
 
 <!--Para accesar a paginas en internet-->
-<allow-intent href="https://*/*"/>
+<allow-internet href="https://*/*"/>
 <acces origin="https://*/*"/>
-<allow-intent href="http://*/*"/>
-<acces origin="http ://*/*"/>
+<allow-internet href="https://*/*"/>
+<acces origin="https://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
 <!--Colocar icono app-->
